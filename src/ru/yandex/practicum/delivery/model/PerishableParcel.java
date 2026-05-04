@@ -25,4 +25,9 @@ public class PerishableParcel extends Parcel {
     protected int getBaseCost() {
         return BASE_DELIVERY_COST;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + ", срок хранения=" + timeToLive;
+    }
 }

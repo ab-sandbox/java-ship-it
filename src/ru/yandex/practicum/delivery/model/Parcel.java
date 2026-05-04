@@ -43,4 +43,10 @@ public abstract class Parcel {
     }
 
     protected abstract int getBaseCost();
+
+    @Override
+    public String toString() {
+        return "Посылка <" + description + ">, вес=" + weight +
+                ", адрес='" + deliveryAddress + "', день отправки=" + sendDay;
+    }
 }

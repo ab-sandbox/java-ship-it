@@ -166,7 +166,7 @@ public class DeliveryApp {
         }
 
         for (Parcel p : list) {
-            System.out.println(p.getDescription());
+            System.out.println(p);
         }
     }
 }
